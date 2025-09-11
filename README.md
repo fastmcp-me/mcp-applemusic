@@ -24,7 +24,7 @@ Then, with **Claude Desktop**, add the following to `claude_desktop_config.json`
   "mcpServers": {
     "iTunesControlServer": {
       "command": "uvx",
-      "args": ["-n", "mcp-applemusic"]
+      "args": ["-p", "3.13", "-n", "mcp-applemusic"]
     }
   }
 }
